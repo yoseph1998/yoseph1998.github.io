@@ -9,7 +9,7 @@ Welcome to my site [YosephSA.com](https://www.yosephsa.com). I am very fortunate
 
 ### A little bit about myself:
 
-I am a Software Engineer at C&nbsp;Spire working mainly on the Web side (both FE and BE), as well as on the DevOps. I am most interested in automating development processes as well as making secure, elegant, obvious to use, and stable APIs exposed to the world wide web.
+I am a Software Engineer at C Spire working mainly on the Web side (both FE and BE), as well as on the DevOps. I am most interested in automating development processes as well as making secure, elegant, obvious to use, and stable APIs exposed to the world wide web.
 
 I am also a man of many interests, I find joy in picking up new hobbies and learning them from the ground up. I find it important to regularly make youself learn something completely new and push through that feeling of noviceness, otherwise we become complacent.
 
