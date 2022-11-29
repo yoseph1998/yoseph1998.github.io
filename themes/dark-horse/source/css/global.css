@@ -1,16 +1,16 @@
 :root {
 	/* Universal Variables*/
-	--color-black: #111111;
-	--color-dark-gray: #222222;
-	--color-gray: #404040;
-	--color-light-gray: #5d5d5d;
-	--color-white: #C8C8C8;
-	--color-creamy-ocean: #4987b3;
+	--color-primary: #efefef;
+	--color-secondary: #39b3d8;
+	--color-accent: #222222;
+
+	--color-text: #dbdbdb;
+	--color-text-soft: #8e8e8e;
+	--color-text-pop: #39b3d8;
 
 	/* Nav Menu Variables */
 	--nav-desktop-size: 110px;
 	--nav-mobile-size: 80px;
-	--color-font: var(--color-white);
 }
 
 /* =================================================== */
@@ -76,8 +76,8 @@ body #page-content #page-content-body {
 	color: #7999af;
 }
 .global-nav .nav-button {
-	color: var(--color-white);
-	fill: var(--color-white);
+	color: var(--color-text-soft);
+	fill: var(--color-text-soft);
 	transition: 0.3s ease;
 	width: 60px;
 	padding: 9px 15px;
@@ -86,8 +86,8 @@ body #page-content #page-content-body {
 	align-items: center;
 }
 .global-nav .nav-button:hover, .global-nav .nav-button.active {
-	color: var(--color-creamy-ocean);
-	fill: var(--color-creamy-ocean);
+	color: var(--color-text-pop);
+	fill: var(--color-text-pop);
 }
 .global-nav .nav-button svg {
 	width: 30px;
@@ -145,6 +145,6 @@ body #page-content #page-content-body {
 		width: 100vw;
 		height: var(--nav-mobile-size);
 		background-color: rgba(0, 0, 0, 0.5);
-		color: var(--color-white);
+		color: var(--color-text);
 	}
 }

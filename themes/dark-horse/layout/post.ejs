@@ -1,7 +1,17 @@
 
-<div class="post-wrapper">
-    <div class="title"> <h2><%- page.title %></h2> </div>
-    <div class="content"> <%- page.content %> </div>
-</div>
+<% if(page.draft) { %>
+    <div class="post-wrapper">
+        <div class="title"> 
+            <h2> <%- page.title %> </h2>
+            <% if(page.date) { %>
+                <p class="date"> <%- page.date.format('YYYY-MM-DD') %> </p>
+            <% } %>
+            <% if(page.author) { %>
+                <p class="author"> <%- page.author %> </p>
+            <% } %>
+        </div>
+        <div class="content"> <%- page.content %> </div>
+    </div>
+<% } %>
 
 <link rel="stylesheet" href="/css/posts.css">

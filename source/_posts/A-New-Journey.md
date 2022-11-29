@@ -1,6 +1,7 @@
 ---
 title: A New Journey
 date: 2022-11-23 17:03:36
+author: Yoseph Alabdulwahab
 categories: [blog]
 ---
 

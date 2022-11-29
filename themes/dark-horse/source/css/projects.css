@@ -11,7 +11,7 @@
 	justify-content: space-between;
 	height: var(--card-height);
 	width: 100%;
-	color: var(--color-white);
+	color: var(--color-text);
 	margin: 0 0 3%;
 }
 
@@ -33,7 +33,7 @@
 
 #projects-container .item .card .details {
 	padding: 10px 20px;
-	background-color: var(--color-dark-gray);
+	background-color: var(--color-secondary);
 }
 
 
@@ -62,7 +62,7 @@
 	width: 50%;
 	height: 50%;
 	object-fit: contain;
-	fill: var(--color-white);
+	fill: var(--color-text);
 }
 
 #projects-container .item .card .quicklink-container a.youtube {
