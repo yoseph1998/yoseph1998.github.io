@@ -1,0 +1,22 @@
+.post-wrapper {
+    color: var(--color-white);
+    max-width: 700px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    margin-top: 5%;
+}
+
+.post-wrapper .title {
+    background-color: rgb(18, 18, 18, 0.7);
+    padding: 2%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-wrapper .content {
+    background-color: rgb(50, 50, 50, 0.6);
+    padding: 5%;
+}

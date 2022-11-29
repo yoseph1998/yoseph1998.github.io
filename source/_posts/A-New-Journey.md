@@ -1,7 +1,7 @@
 ---
 title: A New Journey
 date: 2022-11-23 17:03:36
-tags:
+categories: [blog]
 ---
 
 Welcome to my site [YosephSA.com](https://www.yosephsa.com). I am very fortunate to work with cutting edge technologies as well as older technology that can be considered the back bone of our modern software infrastructure. It'd only be a shame to not share my experiences along with the hurdles I run into. I am still early in my career and have a lot to share as I learn more and expand my expertise. This website is medium for me to share that with you in hopes to give back to the community as well as hear from you on different areas I can improve on.

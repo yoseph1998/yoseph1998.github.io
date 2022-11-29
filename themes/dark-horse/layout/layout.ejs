@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Template <head> Content-->
+    
+    <% if( page.title != null) { %>
+        <title>Yoseph S. A. - <%- page.title %></title>
+        <meta property="og:title" content="Developer Yoseph - <%- page.title %>" />
+    <% } else { %>
+        <title>Yoseph S. A.</title>
+        <meta property="og:title" content="Developer Yoseph" />
+    <% } %>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TODO: get URL -->
+	<meta property="og:url" content="<%- url %>" />
+	<meta property="og:type" content="website" />
+	<meta name="twitter:card" content="summary_large_image">
+	
+	<!-- Imported Include References-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredericka+the+Great">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Parisienne">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+
+	<!-- Local Include References -->
+	<link rel="stylesheet" href="/css/normalize.css?v=2.0">
+	<link rel="stylesheet" href="/css/global.css?v=1.2">
+	<script src="/js/global.js"></script>
+</head>
+<body>
+
+	<!-- ---------------- Navigation Bar ---------------- -->
+	
+    <%- partial('partial/nav') %>
+
+	<!-- ---------------- Scrollable Content ---------------- -->
+	<div id="page-content">
+		
+            <%- body %>
+        </div>
+	</div>
+</body>
+</html>
