@@ -20,23 +20,25 @@
 	<!-- Imported Include References-->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredericka+the+Great">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Parisienne">
+	<link rel=stylesheet href="https://s3-us-west-2.amazonaws.com/colors-css/3.0.0/colors.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
 
 	<!-- Local Include References -->
 	<link rel="stylesheet" href="/css/normalize.css?v=0.1">
 	<link rel="stylesheet" href="/css/global.css?v=0.1">
+	<link rel="stylesheet" href="/css/header.css?v=0.1">
+	<link rel="stylesheet" href="/css/navigation.css?v=0.1">
 	<script src="/js/global.js"></script>
 </head>
 <body>
 
 	<!-- ---------------- Navigation Bar ---------------- -->
 	
-    <%- partial('partial/nav') %>
+    <%- partial('partial/navigation') %>
 
 	<!-- ---------------- Scrollable Content ---------------- -->
 	<div id="page-content">
-		
             <%- body %>
         </div>
 	</div>

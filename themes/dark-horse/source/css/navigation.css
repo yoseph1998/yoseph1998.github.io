@@ -1,0 +1,80 @@
+.global-nav {
+	height: 100vh;
+	width: var(--nav-desktop-size);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	z-index: 10;
+	align-items: center;
+	border-right: var(--color-text-soft);
+}
+.global-nav .logo {
+	font-family: "Parisienne", sans-serif;
+	font-weight: 700;
+	width: 100%;
+	font-size: 40px;
+	padding: 25px 0 10px;
+	margin-bottom: 20px;
+	color: #7999af;
+}
+.global-nav .nav-button {
+	color: var(--color-text-soft);
+	fill: var(--color-text-soft);
+	transition: 0.3s ease;
+	width: 60px;
+	padding: 9px 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.global-nav .nav-button:hover, .global-nav .nav-button.active {
+	color: var(--color-text-pop);
+	fill: var(--color-text-pop);
+	border-bottom: 3px solid;
+}
+.global-nav .nav-button svg {
+	width: 30px;
+	height: 40px;
+	object-fit: contain;
+}
+.global-nav .nav-button svg g {
+	fill: inherit;
+}
+.global-nav .nav-button span {
+	font-size: 16px;
+	text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+	.global-nav {
+		position: fixed;
+		bottom: 0;
+		height: var(--nav-mobile-size);
+		width: 100vw;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		padding: 0;
+		/* Glassmorphism */
+		background: rgba( 255, 255, 255, 0.25 );
+		box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+		backdrop-filter: blur( 8.5px );
+		-webkit-backdrop-filter: blur( 8.5px );
+		border-radius: 10px;
+		border: 1px solid rgba( 255, 255, 255, 0.18 );
+	}
+	.global-nav .logo {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 400px) {
+	.global-nav .nav-button svg {
+		width: 26px;
+		height: 35px;
+	}
+	.global-nav .nav-button span {
+		font-size: 15px;
+	}
+}

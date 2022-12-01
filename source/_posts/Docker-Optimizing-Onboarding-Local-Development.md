@@ -3,7 +3,7 @@ title: Docker - Optimizing Onboarding & Local Development
 date: 2022-11-27 09:43:40
 author: Yoseph Alabdulwahab
 categories: [articles]
-draft: true
+draft: false
 ---
 <span style="display: none;">
     Hook - Describe the problem statement
