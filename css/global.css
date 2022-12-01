@@ -1,12 +1,12 @@
 :root {
 	/* Universal Variables*/
-	--color-primary: #efefef;
-	--color-secondary: #39b3d8;
+	--color-primary: #0092d0;
+	--color-secondary: #0099ff;
 	--color-accent: #222222;
 
-	--color-text: #dbdbdb;
-	--color-text-soft: #8e8e8e;
-	--color-text-pop: #39b3d8;
+	--color-text: #1e1e1e;
+	--color-text-soft: #545454;
+	--color-text-pop: #0099ff;
 
 	/* Nav Menu Variables */
 	--nav-desktop-size: 110px;
@@ -24,9 +24,6 @@ body {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	position: relative;
-	background: url(/images/background/mtb-skinny-log-tinted.jpg) no-repeat;
-	background-size: cover;
-	background-position: 50%;
 }
 
 body #page-content {
@@ -48,103 +45,5 @@ body #page-content #page-content-body {
 	}
 	body #page-content {
 		padding-bottom: 56px;
-		height: calc(100% - var(--nav-mobile-size));
-	}
-}
-
-/* =================================================== */
-/* =============== NAVIGATION MENU =================== */
-/* =================================================== */
-
-/* ======= GLOBAL NAV ======= */
-.global-nav {
-	height: 100vh;
-	width: var(--nav-desktop-size);
-	display: flex;
-	flex-direction: column;
-	background-color: rgba(60, 60, 60, 0.3);
-	text-align: center;
-	z-index: 10;
-	align-items: center;
-}
-.global-nav .logo {
-	font-family: "Parisienne", sans-serif;
-	font-weight: 700;
-	width: 100%;
-	font-size: 40px;
-	padding: 25px 0 10px;
-	color: #7999af;
-}
-.global-nav .nav-button {
-	color: var(--color-text-soft);
-	fill: var(--color-text-soft);
-	transition: 0.3s ease;
-	width: 60px;
-	padding: 9px 15px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-.global-nav .nav-button:hover, .global-nav .nav-button.active {
-	color: var(--color-text-pop);
-	fill: var(--color-text-pop);
-}
-.global-nav .nav-button svg {
-	width: 30px;
-	height: 40px;
-	object-fit: contain;
-}
-.global-nav .nav-button svg g {
-	fill: inherit;
-}
-.global-nav .nav-button span {
-	font-size: 16px;
-	text-align: center;
-}
-
-@media screen and (max-width: 700px) {
-	.global-nav {
-		position: fixed;
-		bottom: 0;
-		height: var(--nav-mobile-size);
-		width: 100vw;
-		flex-direction: row;
-		justify-content: space-evenly;
-		align-items: center;
-		padding: 0;
-		background-color: rgba(55, 55, 55, 1);
-	}
-	.global-nav .logo {
-		display: none;
-	}
-}
-
-
-@media screen and (max-width: 400px) {
-	.global-nav .nav-button svg {
-		width: 26px;
-		height: 35px;
-	}
-	.global-nav .nav-button span {
-		font-size: 15px;
-	}
-}
-
-/* =================================================== */
-/* ================== PAGE TITLE ===================== */
-/* =================================================== */
-.page-title {
-	display: none;
-}
-
-@media screen and (max-width: 700px) {
-	.page-title {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100vw;
-		height: var(--nav-mobile-size);
-		background-color: rgba(0, 0, 0, 0.5);
-		color: var(--color-text);
 	}
 }
