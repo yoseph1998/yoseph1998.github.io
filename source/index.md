@@ -1,6 +1,6 @@
 <style>
     .resume-wrapper {
-        display: flex;
+        display: none;
         padding: 2%;
         align-items: center;
         justify-content: center;
