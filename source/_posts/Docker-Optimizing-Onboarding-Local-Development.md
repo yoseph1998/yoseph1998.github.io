@@ -1,9 +1,9 @@
 ---
 title: Docker - Optimizing Onboarding & Local Development
+summary: A guide on using docker to enhance the reliablility of local development environment as well as improve developer productivity.
 date: 2022-11-27 09:43:40
 author: Yoseph Alabdulwahab
 categories: [articles]
-draft: false
 ---
 <span style="display: none;">
     Hook - Describe the problem statement

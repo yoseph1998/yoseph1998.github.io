@@ -7,6 +7,13 @@
 	z-index: 10;
 	align-items: center;
 	border-right: var(--color-text-soft);
+	/* Glassmorphism */
+	background: rgba( 255, 255, 255, 0.25 );
+	box-shadow: 0 8px 32px 0 rgba(135, 125, 31, 0.521);
+	backdrop-filter: blur( 8.5px );
+	-webkit-backdrop-filter: blur( 8.5px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .global-nav .logo {
 	font-family: "Parisienne", sans-serif;
@@ -55,13 +62,6 @@
 		justify-content: space-evenly;
 		align-items: center;
 		padding: 0;
-		/* Glassmorphism */
-		background: rgba( 255, 255, 255, 0.25 );
-		box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-		backdrop-filter: blur( 8.5px );
-		-webkit-backdrop-filter: blur( 8.5px );
-		border-radius: 10px;
-		border: 1px solid rgba( 255, 255, 255, 0.18 );
 	}
 	.global-nav .logo {
 		display: none;

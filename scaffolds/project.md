@@ -1,7 +1,11 @@
 ---
 title: {{ title }}
+summary: 
 date: {{ date }}
 author: Yoseph Alabdulwahab
-categories: [article]
+categories: [project]
 tags:
+thumbnail:
+linkYoutube:
+linkGithub:
 ---
