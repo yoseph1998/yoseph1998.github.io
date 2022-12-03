@@ -3,6 +3,7 @@
 	--color-primary: #0092d0;
 	--color-secondary: #0099ff;
 	--color-accent: #222222;
+	--background: #f5f3e7;
 
 	--color-text: #1e1e1e;
 	--color-text-soft: #545454;
@@ -10,7 +11,7 @@
 
 	/* Nav Menu Variables */
 	--nav-desktop-size: 110px;
-	--nav-mobile-size: 80px;
+	--nav-mobile-size: 65px;
 }
 
 /* =================================================== */
@@ -25,6 +26,7 @@ body {
 	flex-wrap: nowrap;
 	position: relative;
 	font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans', sans-serif, 'Apple Color Emoji';
+	background: var(--background);
 }
 
 body #page-content {
