@@ -44,6 +44,7 @@
     flex-direction: column;
     gap: 10px;
     justify-content: center;
+    color: var(--color-text);
 }
 
 #cards-wrapper .item .card .details * {
