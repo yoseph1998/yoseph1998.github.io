@@ -40,9 +40,15 @@
 #cards-wrapper .item .card .details {
 	padding: 10px 20px;
 	background-color: var(--color-dark-gray);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
 }
 
-
+#cards-wrapper .item .card .details * {
+    margin: 0;
+}
 #cards-wrapper .item .card .details p {
 	display: -webkit-box;
 	-webkit-line-clamp: 2;
