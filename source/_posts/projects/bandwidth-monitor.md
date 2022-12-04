@@ -8,7 +8,7 @@ summary: >-
 date: 2022-12-03 13:19:53
 categories: [projects]
 tags:
-thumbnail:
+thumbnail: /assets/projects/22/bandwidth-monitor.png
 linkYoutube:
 linkGithub: https://github.com/yoseph1998/single-day-projects/tree/master/bwmonitor
 ---

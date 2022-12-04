@@ -3,6 +3,7 @@ title: Docker - Optimizing Onboarding & Local Development
 summary: A guide on using docker to enhance the reliablility of local development environment as well as improve developer productivity.
 date: 2022-11-27 09:43:40
 author: Yoseph Alabdulwahab
+thumbnail: /assets/articles/22/docker-container-ship.jpeg
 categories: [articles]
 ---
 <span style="display: none;">
@@ -27,3 +28,5 @@ I recently got back from QCon in San Fransico and had the pleasure to interact w
 ## What can we do?
 The core of the problem is that many older frameworks are big puzzles that require all sorts of dependencies to be installed in a particular way and configuration can be too easly altered affecting the development environment. Additionally when something changes and breaks the local environment, debugging is akin to ghost hunting. Wouldn't it be nice to simplify the setup process to a simple git pull and a start command. That's where Docker comes in.
 
+...  (in progress)  ...
+... to be continued ...
